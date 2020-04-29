@@ -1,0 +1,17 @@
+{
+  "name": "koa-contrib-pathsegmentsstartwith",
+  "version": "1.0.0",
+  "description": "a koa middleware, call an user defined middleware if `ctx.path`'s path segments start with a given prefix's path segments",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-coverage": "jest --collectCoverage"
+  },
+  "keywords": [],
+  "author": "Richard Libre",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.1",
+    "jest": "^25.5.1"
+  }
+}
