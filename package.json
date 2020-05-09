@@ -1,6 +1,6 @@
 {
   "name": "koa-contrib-pathsegmentsstartwith",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a koa middleware, call an user defined middleware if `ctx.path`'s path segments start with a given prefix's path segments",
   "main": "index.js",
   "scripts": {
