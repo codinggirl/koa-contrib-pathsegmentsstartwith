@@ -43,7 +43,7 @@ function _pathSegmentsStartWith(prefix, downStream) {
         }
     
         if (matched) {
-            await downStream()
+            await downStream(ctx, () => {})
             return upstream()
         } else {
             return upstream()

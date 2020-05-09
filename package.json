@@ -13,5 +13,14 @@
   "devDependencies": {
     "@types/jest": "^25.2.1",
     "jest": "^25.5.1"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codinggirl/koa-contrib-pathsegmentsstartwith.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codinggirl/koa-contrib-pathsegmentsstartwith/issues"
+  },
+  "homepage": "https://github.com/codinggirl/koa-contrib-pathsegmentsstartwith#readme"
 }
