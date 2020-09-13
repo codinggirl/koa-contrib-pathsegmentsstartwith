@@ -26,20 +26,19 @@ For more information about path and path segments, please refer to [RFC 2396](ht
 
 See chart below for reference.
 
-ctx.path | prefix | matched: call middleware (Y/N)
--        | -      | -
-/        |  /api   | N
-/api     |  /api   | Y
-/api/    |  /api   | Y
-/api     | /api/   | Y
-/api/    | /api/   | Y
-/api/v1  | /api/   | Y
-/api/v1  | /api/v  | N
-/api/v2  | /api/v2 | Y
-/api/v2.0 | /api/v2 | N
-/api/v21  | /api/v2 | N
-/images   | /image   | N
-/images/flower   | /image/   | Y
+| ctx.path         | prefix    | matched: call middleware (Y/N) |
+|------------------|-----------|--------------------------------|
+| /api             | /api      | Y                              |
+| /api/            | /api      | Y                              |
+| /api             | /api/     | Y                              |
+| /api/            | /api/     | Y                              |
+| /api/v1          | /api/     | Y                              |
+| /api/v1          | /api/v    | N                              |
+| /api/v2          | /api/v2   | Y                              |
+| /api/v2.0        | /api/v2   | N                              |
+| /api/v21         | /api/v2   | N                              |
+| /images          | /image    | N                              |
+| /images/flower   | /image/   | Y                              |
 
 ## Usage
 
